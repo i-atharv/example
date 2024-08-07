@@ -1,0 +1,35 @@
+Html : It is a scripting language used to markup attributes in a body of a webpage.
+Asset : Static pages 
+jQuery : Framework of js
+cdn: Content delivery Network
+viewport: this helps the webpage to adjust in any different dimensions i.e desktop,mobile,etc
+What is head:
+Meta tags:
+Body tag:Here we can put our elements of the webpage.
+heading tags
+break tags
+
+
+
+
+Full Stack :
+Frontend ----> React
+Backend ----> 
+Database ---->MySql,NoSql(MongoDB)
+Server ---->Cloud,Link servers
+Static/Assets ---->HTML,CSS,JS,Bootstrap
+VCS
+Operation: Ci/cd, testing, 
+
+
+
+
+Encapsulation: 
+
+react.js next.js vue.js vite.js 
+
+
+html css jss scss jquery ajax  ----> Multipage App.
+
+
+
