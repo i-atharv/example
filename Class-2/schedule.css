@@ -1,0 +1,17 @@
+.s1{
+    background-color: lightblue;
+    margin: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+th{
+    background-color: aquamarine;
+    
+}
+tr{
+    background-color: chocolate;
+}
+table>h3{
+    margin:30px;
+}

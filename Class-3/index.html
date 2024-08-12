@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make My Trip</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="image">
+    <header>
+        <div class="container f2" >
+            
+            <img src="https://promos.makemytrip.com/Growth/Images/1x/mmt_dt_top_icon.png" alt="" width="150px">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="options">
+        <div class="trip-type">
+            <div>
+                <a href="#"><img src="flight.png" alt="" width="100px"></a>
+            </div>
+            <div>
+                <a href="#"><img src="hotel.png" alt="" width="100px"></a>
+            </div>
+            <div>
+                <a href="#"><img src="hmv.png" alt="" width="100px"></a>
+            </div>
+            <div>
+                <a href="#"><img src="hp.png" alt="" width="100px"></a>
+            </div>
+            <div>
+                <a href="#"><img src="train.png" alt="" width="100px"></a>
+            </div>
+            <div>
+                <a href="#"><img src="bus.png" alt="" width="100px"></a>
+            </div>
+            <div>
+                <a href="#"><img src="cabs.png" alt="" width="100px"></a>
+            </div>
+            <div>
+                <a href="#"><img src="fcc.png" alt="" width="100px"></a>
+            </div>
+            <div>
+                <a href="#"><img src="ti.png" alt="" width="100px"></a>
+            </div>
+        </div>
+    </div>
+    <div class="search-container"><br><br>
+        <form>
+            <div class="trip-type">
+                <input type="radio" id="one-way" name="trip" checked>
+                <label for="one-way">One Way</label>
+                <input type="radio" id="round-trip" name="trip">
+                <label for="round-trip">Round Trip</label>
+                <input type="radio" id="multi-city" name="trip">
+                <label for="multi-city">Multi City</label>
+            </div>
+
+            <div class="search-fields">
+                <div class="from-to">
+                    <label for="from">From</label>
+                    <input type="text" id="from" value="Delhi" readonly>
+                    <span>DEL, Delhi Airport India</span>
+                </div>
+
+                <div class="from-to">
+                    <label for="to">To</label>
+                    <input type="text" id="to" value="Bengaluru" readonly>
+                    <span>BLR, Bengaluru International Airport</span>
+                </div>
+
+                <div class="date-field">
+                    <label for="departure">Departure</label>
+                    <input type="date" id="departure">
+                </div>
+
+                <div class="date-field">
+                    <label for="return">Return</label>
+                    <input type="text" id="return" placeholder="Tap to add a return date for bigger discounts" readonly>
+                </div>
+
+                <div class="travellers-class">
+                    <label for="travellers">Travellers & Class</label>
+                    <input type="text" id="travellers" value="1 Traveller, Economy/Premium Economy" readonly>
+                </div>
+            </div>
+
+            <div class="special-fare">
+                <label>Select a special fare</label>
+                <div class="fare-options">
+                    <button type="button" class="regular active">Regular</button>
+                    <button type="button" class="student">Student</button>
+                    <button type="button" class="senior-citizen">Senior Citizen</button>
+                    <button type="button" class="armed-forces">Armed Forces</button>
+                    <button type="button" class="doctor-nurses">Doctor and Nurses</button>
+                </div>
+            </div>
+
+            <button type="submit" class="search-button">SEARCH</button>
+        </form>
+    </div>
+    <section id="hero">
+        <div class="container">
+            <h2>Your Adventure Awaits</h2>
+            <p>Explore the world's most beautiful destinations</p>
+            <a href="#destinations" class="btn">Discover Now</a>
+        </div>
+    </section>
+        <div class="container f5">
+            <h2>Popular Destinations</h2>
+            <div class="destination-list">
+                <div class="destination">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyak3rBu5VjRtNxFyA_NxpSypttUMiPwwAg&s" alt="Destination 1">
+                    <h3>Paris</h3>
+                    <p>Experience the city of lights.</p>
+                </div>
+                <div class="destination">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2a4K8ER2cdUZPbURbnbH4_4H3v8PMq6vVOA&s" alt="Destination 2">
+                    <h3>New York</h3>
+                    <p>Explore the bustling streets of NYC.</p>
+                </div>
+                <div class="destination">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEY4GhMp2QbmT_jq52ExgfIy_NJXZjmBLR3A&s" alt="Destination 3">
+                    <h3>Tokyo</h3>
+                    <p>Discover the vibrant culture of Tokyo.</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Company Overview</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press Releases</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Booking Changes</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Car Rentals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container f4">
+                <h2>Contact Us</h2>
+                <p>Get in touch for more information or to book your next trip.</p>
+                <p>&copy; 2024 Make My Trip. All rights reserved.</p>
+            </div>
+        </footer>
+</body>
+</html>4

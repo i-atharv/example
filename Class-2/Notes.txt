@@ -1,0 +1,2 @@
+By default method :get
+form :get post put patch delete

@@ -1,0 +1,10 @@
+.first-id{
+    background-color:black;
+}
+.first-id:has(.first-id-one)
+{
+   color:azure;
+}
+table{
+    background-color:coral;
+}
