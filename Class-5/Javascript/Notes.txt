@@ -1,0 +1,6 @@
+Variables in js is used to store data or the element
+Blocking variables : const , let
+Non-Blocking variables : var
+
+forEach in es5
+mapping in es6

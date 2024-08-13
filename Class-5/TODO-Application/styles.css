@@ -1,0 +1,98 @@
+body {
+    background-image:url('https://cdn.wallpaperhub.app/cloudcache/7/c/4/d/3/0/7c4d3040631ac5f3f3b6bdae70a7b63a7d2c9f29.jpg');
+    background-size: 100%;
+    font-family:'Gochi Hand',cursive;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+
+    background:rgb(150, 195, 210);
+    border-radius: 30px;
+    box-shadow: 0 0 30px black;
+    width: 500px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+h1:hover{
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    font-family: 'Gochi Hand',cursive;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    margin: 10px;
+    height: 40px;
+    font-size: large;
+}
+
+button {
+    font-size: large;
+    font-family:'Gochi Hand',cursive;
+    margin: 10px;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    background-color: #74b1db;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #74b1db;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: x-large;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.remove {
+    background: none;
+    width: 100px;
+    border: solid black;
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.remove:hover {
+    color: #c82333;
+}
